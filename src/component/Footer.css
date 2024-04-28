@@ -1,0 +1,74 @@
+@media screen and (min-width: 200px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+    border-top: 1px solid white;
+  }
+  .blur-f1{
+   width: 30%;
+   height: 40%;
+   padding: 6rem;
+   background: red;
+   position: absolute;
+   right: 20%;
+   z-index: -1;
+   filter: blur(150px);
+  }
+  .blur-f2{
+   width: 30%;
+   height: 40%;
+   padding: 6rem;
+   background:var(--orange);
+   position: absolute;
+   left: 20%;
+   z-index: -1;
+   filter: blur(150px);
+  }
+  .foot-top {
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 10%;
+  }
+  .foot-top > img {
+    width: 5%;
+  }
+  .foot-top > img:hover {
+    cursor: pointer;
+  }
+  .foot-bt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+  }
+  .foot-bt > img {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .foot-top > img {
+    width: 4%;
+  }
+  .blur-f1{
+    
+    padding: 9rem;
+  
+   
+    filter: blur(200px);
+   }
+   .blur-f2{
+    padding: 9rem;;
+    filter: blur(200px);
+   }
+  .foot-bt {
+    margin-bottom: 2%;
+  }
+  .foot-bt > img {
+    width: 50%;
+  }
+}

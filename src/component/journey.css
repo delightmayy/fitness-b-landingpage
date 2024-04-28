@@ -1,0 +1,109 @@
+
+
+@media screen and (min-width: 200px) {
+  .journey {
+    color: transparent;
+    padding: 1rem;
+    justify-content: center;
+  }
+  .journey-title {
+    font-size: 1.5rem;
+    -webkit-text-stroke: 0%;
+    justify-content: center;
+    gap: 0.6rem;
+  }
+  .stroke-off {
+    color: white;
+    -webkit-text-stroke: 0px;
+  }
+  .journey-body {
+    flex-direction: column;
+    justify-content: center;
+    max-width: 90%;
+    margin: auto;
+  }
+  .journeybox:nth-child(2) {
+    transform: scale(1.1);
+    background-color: var(--orange);
+  }
+  .journeybox:hover {
+   
+    background-color:var(--orange);
+  }
+  .journeybox {
+    border: 1px solid var(--orange);
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 1.2rem;
+  }
+  .journeybox-text {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .journeybox-txt {
+    margin: 0.5rem;
+    font-weight: 100;
+  }
+  .arrow{
+    width:8%;
+  }
+  .journeybox> .btn{
+    border: none;background:#fff;
+    color: black;
+  }
+  
+  .journeybox >h1{
+  font-size: 2.5rem;
+  }
+  
+}
+
+
+ @media screen and (min-width: 700px) {
+  .journey {
+    color: transparent;
+    padding: 1rem;
+  }
+  .journey-title {
+    font-size: 2rem;
+   
+  }
+
+  .journey-body {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+    flex-wrap: nowrap;
+    margin: 1rem;
+  }
+  .journeybox{
+    max-width: 28%;
+  }
+  .journeybox-small{
+    text-wrap: nowrap;
+  }
+}
+
+
+ @media screen and (min-width: 1000px) {
+ 
+  .journey-title {
+    font-size: 2rem;
+   
+  }
+
+  .journey-body {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+    flex-wrap: nowrap;
+    margin: 1rem;
+  }
+  .journeybox{
+    max-width: 31%;
+  }
+}
+

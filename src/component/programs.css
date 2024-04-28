@@ -1,0 +1,144 @@
+@media screen and (min-width: 200px) {
+
+  .our-program {
+    text-transform: uppercase;
+    flex-wrap: wrap;
+  }
+  .program-header > .stroke {
+    font-size: 1.5rem;
+    -webkit-text-stroke-width: 1px;
+    font-weight: 700;
+  }
+  .program-header {
+    color: white;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .program-body {
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    
+  }
+  .program {
+    padding: 2%;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 400px;
+    width: 80%;
+    background-color: var(--gray);
+    margin: 1rem;
+    min-height: 300px;
+  }
+  .program:hover {
+    background-color: var(--orange);
+  }
+  .program:first-child {
+    font-size: 1rem;
+  }
+  .program-title {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-transform: capitalize;
+  }
+  .program-txt {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-transform: lowercase;
+    margin: 0 5%;
+    text-align: center;
+  }
+  .program-img {
+    font-size: 1rem;
+  }
+  .btnimg {
+    width: 13px;
+   
+  }
+  .program-btn {
+    font-size: 1rem;
+    border: none;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+  }
+}
+
+
+@media screen and (min-width: 700px) {
+ 
+ 
+  .program-header > .stroke {
+    font-size: 2rem;
+  
+  }
+  .program-header {
+    color: white;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .program-body {
+    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+    padding: 2rem;
+    /* margin:0rem 2rem ;
+   margin-bottom:2rem ; */
+  }
+  .program {
+    padding: 1%;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 20%;
+  }
+
+  
+  .program-title {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+    text-transform: capitalize;
+  }
+
+
+  .btnimg {
+    width: 15px;
+   
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+ 
+ 
+  .program {
+    padding: 1%;
+   justify-content: space-evenly;
+    align-items: center;
+   
+  }
+
+  
+
+
+  .btnimg {
+    width: 20px;
+   
+  }
+
+}

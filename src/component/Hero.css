@@ -1,0 +1,264 @@
+.hero-section {
+ /*  background: var(--appColor); */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+  
+}
+.hero-a {
+  display: flex;
+  flex-direction: column;
+  padding: 0% 4%;
+  padding-bottom: 4%;
+  gap: 2rem;
+ 
+   
+
+}
+.hero-b {
+  display: flex;
+  flex-direction: column;
+  padding: 0% 2%;
+  padding-bottom: 3%;
+  align-items: flex-start;
+  position: relative;
+  min-height: 500px;
+ background-color: var(--orange);
+
+}
+.blur{
+  width: 15rem;
+  height: 15rem;
+  background-color: var(--orange);
+  border-radius: 50%;
+  position: absolute;
+  top:25px;
+  filter: blur(150px);
+}
+/* .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    gap: 1rem;
+    padding: 0.4rem 0.7rem;
+    font-size: inherit;
+    text-transform: capitalize;
+    border: 1px solid var(--orange);
+    color:white;
+   
+
+}
+ */
+
+  
+.join-now{
+    background-color: white;
+    color: black;
+    position: absolute;
+    top:1rem;
+    right:4%;
+  }
+ .join-now:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+  
+
+.best-fitness-line{
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin: 3rem 0rem;
+  z-index: 2;
+}
+.mmts{
+  border-radius: 40px;
+  background-color: var(--orange);
+  color: white;
+  text-transform: uppercase;
+  line-height: 20px;
+  padding: 0.5rem;
+  width: 400px;
+  font-size: 1.2rem;
+ 
+}
+/* .stroke{
+  color: transparent;
+  font-size: 3rem;
+  font-weight: 900;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: white;
+} */
+.bold-text{
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+.best-fitness-line>p{
+
+  color: white;
+  font-size: 1rem;
+}
+.stats{
+display: flex;
+justify-content: space-between; 
+align-items: center; 
+color: white;
+font-size: 1.8rem;
+text-align: center;
+}
+.stt-text{
+ color: var(--gray);
+ font-size: 1rem;
+ text-align: center;
+}
+.cta{
+  align-items: center;
+  gap: 2rem;
+}
+.getstarted{
+background-color: var(--orange);
+}
+.getstarted:hover{
+  background-color: transparent;
+  border: 1px solid white;
+}
+.learnmore:hover{
+  background-color: var(--orange);
+  
+}
+.heroimg{
+  height: 75%;
+  width: 100%;
+  left:-7.3rem;
+  top:6rem;
+  z-index: 3;
+}
+.herobackimg{
+  height: 50%;
+  width: 60%;
+  left:-11.3rem;
+  top:-4rem;
+  z-index: -1;
+}
+.heart-rate{
+  background-color: var(--darkGrey);
+ gap: 1rem;
+ z-index: 4;
+ padding: 5%;
+ position: absolute;
+ top: 9rem;
+ right: 4%;
+}
+.heart-rate :nth-child(2){
+  color: var(--gray);
+  text-transform: capitalize;
+}
+.heart-rate :nth-child(3){
+  color:white;
+  font-size: 1.5rem;
+}
+.heart{
+  height: 2rem;
+  width: 2.5rem;
+  color: red;
+}
+.calories{
+  background-color: var(--darkGrey);
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  z-index: 4;
+  padding: 5%;
+  position: absolute;
+  bottom: 3rem;
+ right: 4%;
+}
+.calories-txt :nth-child(1){
+  color: var(--gray);
+}
+.calories-txt :nth-child(2){
+  color: white;
+ margin-top: 5px;
+}
+.calories-img{
+  height: 3rem;
+  width: 2.5rem;
+}
+
+
+@media screen and (max-width: 700px) {
+
+.hero-a {
+  display: flex;
+  flex-direction: column;
+  padding: 0% 4%;
+  padding-bottom: 4%;
+  gap: 0.6rem; 
+
+}
+.best-fitness-line{
+  
+ justify-content: center;
+ align-items: center;
+ 
+}
+.best-fitness-line>p{
+  text-align: center;
+}
+.bold-text{
+  font-size: 2rem;
+}
+.bold-text>.stroke{
+  font-size: 2rem;
+}
+.cta{
+  margin-top: 2rem;
+ justify-content: center;
+}
+
+.hero-b {
+  display: none;
+}
+.mmts{
+ 
+  line-height: 20px;
+  padding: 0.3rem;
+  width: 500px;
+  font-size: 0.8rem;
+  text-align: center;
+  
+ 
+}
+.stats,.stt-text{
+  font-size: 1rem;
+}
+/* .heroimg{
+  height: 75%;
+  width: 60%;
+  left: 14rem;
+  top:6rem;
+  z-index: 3;
+  
+} */
+/* .heart-rate{
+ top: 9rem;
+ right: 20rem;
+}.calories{
+  background-color: var(--darkGrey);
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  z-index: 4;
+  padding: 5%;
+  position: absolute;
+  bottom: 3rem;
+ right: 4%;
+} */
+}
